@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "DM Sans", sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+
+
+h1 {
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #1E0E62;
+    margin-bottom: 40px;
+}
+
+.features {
+    color: #A1A1B0;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.free {
+    color: #A1A1B0;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+
+.pro {
+    color: #A1A1B0;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+
+}
+
+.f-list {
+    color: #1E0E62;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 26px;
+    padding-left: 30px;
+}
+
+.description {
+    color: #9B9BAA;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 26px;
+    text-align: left;
+}
+
+.free-list {
+    color: #1E0E62;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 26px;
+    text-align: left;
+}
+
+.pro-list {
+    color: #1E0E62;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+table {
+    width: 970px;
+    height: 390px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg {
+    background-color: #F5F5F6;
+}
+
+.data {
+    overflow: auto;
+}
